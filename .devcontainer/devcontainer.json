@@ -1,0 +1,20 @@
+{
+  "name": "Ruby on Rails",
+  "image": "ruby:3.2.3",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ruby",
+        "vscode-ruby",
+        "GitHub.copilot"
+      ],
+      "settings": {
+        "ruby.railsRoot": "/workspaces/rails-url-shortener"
+      },
+      "codespaces": {
+        "postCreateCommand": "gem install rails -v 7.1.3.2 && bundle install && rails db:migrate && rails server"
+      }
+    }
+  },
+  "forwardPorts": [3000]
+}
