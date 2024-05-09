@@ -37,3 +37,8 @@
 # ignore devcontainer
 /devcontainer/
 .devcontainer/devcontainer.json
+# ignore vscode settings
+.vscode/
+
+# ignore vendor folder
+/vendor/
