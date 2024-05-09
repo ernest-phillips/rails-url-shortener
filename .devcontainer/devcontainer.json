@@ -1,6 +1,6 @@
 {
   "name": "Ruby on Rails",
-  "image": "ruby:3.2.3",
+  "image": "ruby:3.2.2",
   "customizations": {
     "vscode": {
       "extensions": [
